@@ -1,0 +1,16 @@
+{
+  "name": "dummy-nodejs",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Simple NodeJS Dockerfile",
+  "main": "index.js",
+  "scripts": {
+  	"start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mikael Abrahamsson <mikael.abrahamsson@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "restify": "^4.0.0"
+  }
+}
